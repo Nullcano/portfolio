@@ -37,60 +37,27 @@ nav {
   box-sizing: border-box;
 }
 
-/* Typography */
-
 body {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
-  color: #222;
-  background-color: #fafafa;
-  font: 400 14px/1.625 -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
-    Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji,
-    Segoe UI Symbol;
-  font-size: calc(14px + (20 - 14) * (100vw - 320px) / (750 - 320));
-}
-
-@media (min-width: 750px) {
-  body {
-    font-size: 20px;
-  }
+  color: #ccc;
+  background-color: #111;
+  font-family: 'Kumbh Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
 }
 
 a {
-  color: #2ab591;
+  color: #fff;
+  text-decoration: none;
 }
 
-code {
-  font-size: 0.9em;
+nav a {
+  padding: .5rem 1rem;
 }
-
-/* Grid */
 
 .wrapper {
   max-width: 800px;
   padding: 20px;
   margin: 0 auto;
-}
-
-/* Header */
-
-[role='banner'] {
-  background: #fff;
-}
-
-[role='banner'] a + a {
-  margin-left: 0.5em;
-}
-
-/* Footer */
-
-[role='contentinfo'] .wrapper {
-  border-top: 1px solid rgba(0, 0, 0, 0.1);
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-[role='contentinfo'] .deploy {
-  max-width: 40%;
 }
